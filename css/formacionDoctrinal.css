@@ -1,0 +1,35 @@
+
+.formacion_titulo{
+    text-align: center;
+    margin-top: 20px;
+}
+.formacion_imagen_contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+.formacion_imagen{
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    margin: auto;
+}
+
+.formacion_boton{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.formacion_boton a{
+    background: var(--bg-blue);
+    padding:  10px 20px;
+    color:white;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.formacion_boton a:hover{
+    border-radius: 25px;
+}

@@ -1,0 +1,26 @@
+.seccion{
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    font-family: var(--font-text);
+}
+
+.seccion_titulo{
+    text-align: center;
+    margin-top: 50px;
+    color: var(--bg-blue);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+hr{
+    border-bottom: 3px solid var(--bg-blue);
+    border-top: none;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .seccion_titulo{
+        font-size: 40px;
+    }
+}

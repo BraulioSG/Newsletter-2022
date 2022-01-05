@@ -1,0 +1,140 @@
+.nota{
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px gray;
+    transition: all 1s ease;
+}
+
+.nota_img_contenedor{
+    width: 30%;
+    min-width: 300px;
+    height: 300px;
+    background: black;
+    display: block;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nota_imagen{
+    height: 100%;
+}
+
+.par {
+    float: left;
+}
+.impar{
+    float: right;
+}
+
+.nota_info_contenedor{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 70%;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.nota_info_contenedor .nota_titulo{
+    font-size: var(--h3-size);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+.nota_info_contenedor .nota_texto{
+    font-size: var(--p1-size);
+    text-align: justify;
+    text-justify: distribute;
+    /*word-break: break-all;*/
+    word-spacing: -2px;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    text-justify: inter-word;
+    width: 100%;
+}
+.nota_info_contenedor .nota_boton{
+    font-size: var(--p1-size);
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nota_info_contenedor .nota_boton a{
+    background: var(--bg-blue);
+    padding:  10px 20px;
+    color:white;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+.nota_info_contenedor .nota_boton a:hover{
+    border-radius: 25px;
+}
+@media screen and (min-width: 1200px){
+    .nota_info_contenedor .nota_titulo{
+        font-size: 25px;
+    }
+    .nota_info_contenedor .nota_texto, .nota_info_contenedor .nota_boton{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .nota_img_contenedor{
+        width: 40%;
+    }
+    .nota_info_contenedor{
+        width: 60%;
+    }
+    .nota_info_contenedor .nota_titulo{
+        font-size: 25px;
+    }
+    .nota_info_contenedor .nota_texto, .nota_info_contenedor .nota_boton{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .nota_img_contenedor{
+        width: 45%;
+    }
+    .nota_info_contenedor{
+        width: 55%;
+    }
+    .nota_info_contenedor .nota_titulo{
+        font-size: 20px;
+    }
+    .nota_info_contenedor .nota_texto, .nota_info_contenedor .nota_boton{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 675px){
+    .nota_img_contenedor{
+        width: 100%;
+    }
+    .nota_info_contenedor{
+        width: 100%;
+        height: auto ;
+    }
+    .nota_info_contenedor .nota_titulo{
+        font-size: 25px;
+    }
+    .nota_info_contenedor .nota_texto, .nota_info_contenedor .nota_boton{
+        font-size: 20px;
+    }
+    .nota_info_contenedor .nota_boton{
+        height: 60px;
+    }
+}

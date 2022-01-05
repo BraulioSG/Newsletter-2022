@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+:root{
+    /* color palette */
+    --bg-body: #f1f4f8;
+    --bg-blue: #314661;
+    --bg-grey: #222;
+
+    /* fonts */
+    --font-text: 'Montserrat', sans-serif;
+    --font-text2: 'Roboto', sans-serif;
+    --font-title: 'Prata', serif;
+    --h3-size: 2vw;
+    --p1-size: 1.2vw;
+    --h3-size-mobil: 5vw;
+    --p1-size-mobil: 3vw;
+
+}

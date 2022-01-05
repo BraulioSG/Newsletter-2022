@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--bg-body);
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background: var(--bg-blue);
+    color: white;
+    font-family: var(--font-text);
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+footer p{
+    width: 100%;
+}
+
+.spotify_container{
+    width: 100%;
+    max-width: 720px;
+    height: 300px;
+    margin: auto;
+}
