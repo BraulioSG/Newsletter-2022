@@ -86,7 +86,7 @@
         font-size: 25px;
     }
     .nota_info_contenedor .nota_texto, .nota_info_contenedor .nota_boton{
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -101,7 +101,7 @@
         font-size: 25px;
     }
     .nota_info_contenedor .nota_texto, .nota_info_contenedor .nota_boton{
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -121,6 +121,9 @@
 }
 
 @media screen and (max-width: 675px){
+    .nota{
+        border-radius: 0px;
+    }
     .nota_img_contenedor{
         width: 100%;
     }
